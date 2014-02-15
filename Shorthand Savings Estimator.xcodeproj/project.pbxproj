@@ -28,6 +28,11 @@
 		1CBF626E18ABED23005AB858 /* Shorthand Savings Estimator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Shorthand Savings Estimator"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBF627118ABED23005AB858 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1CBF627318ABED23005AB858 /* Shorthand_Savings_Estimator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Shorthand_Savings_Estimator.1; sourceTree = "<group>"; };
+		1CCFE7CA18AC1277000270AF /* 5000 Most Common Words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "5000 Most Common Words.txt"; path = "Shorthand Savings Estimator/5000 Most Common Words.txt"; sourceTree = "<group>"; };
+		1CCFE7CB18AC127E000270AF /* First 10.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "First 10.txt"; path = "Shorthand Savings Estimator/First 10.txt"; sourceTree = "<group>"; };
+		1CDE36F018AC442C0093A141 /* cstatrun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cstatrun.h; sourceTree = "<group>"; };
+		1CDE36F118AC5F230093A141 /* Shorthanded Dictionary.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Shorthanded Dictionary.txt"; path = "Shorthand Savings Estimator/Shorthanded Dictionary.txt"; sourceTree = "<group>"; };
+		1CDE36F318AC66E50093A141 /* US.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = US.txt; path = "Shorthand Savings Estimator/US.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,10 @@
 			children = (
 				1CBF627018ABED23005AB858 /* Shorthand Savings Estimator */,
 				1CBF626F18ABED23005AB858 /* Products */,
+				1CCFE7CA18AC1277000270AF /* 5000 Most Common Words.txt */,
+				1CCFE7CB18AC127E000270AF /* First 10.txt */,
+				1CDE36F118AC5F230093A141 /* Shorthanded Dictionary.txt */,
+				1CDE36F318AC66E50093A141 /* US.txt */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				1CBF627118ABED23005AB858 /* main.cpp */,
+				1CDE36F018AC442C0093A141 /* cstatrun.h */,
 				1CBF627318ABED23005AB858 /* Shorthand_Savings_Estimator.1 */,
 			);
 			path = "Shorthand Savings Estimator";
@@ -225,6 +235,7 @@
 				1CBF627918ABED23005AB858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
