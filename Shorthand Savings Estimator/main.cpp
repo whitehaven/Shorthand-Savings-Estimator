@@ -74,6 +74,7 @@ int main(int argc, const char * argv[])
                     
                     if ( m < words[l].length() && ((words[l].at(m) == 'a') || (words[l].at(m) == 'e') || (words[l].at(m) == 'i') || (words[l].at(m) == 'o') || (words[l].at(m) == 'u')) )
                     {
+                        //use de-increment
                         words[l].erase(m,1);
                     }
                     
